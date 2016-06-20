@@ -1,0 +1,27 @@
+{
+  "name": "icelandic-characters",
+  "version": "0.0.1",
+  "description": "icelandic characters",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tryggingamidstodin/icelandic-characters.git"
+  },
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "keywords": [
+    "icelandic",
+    "characters"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tryggingamidstodin/icelandic-characters/issues"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.5.3"
+  }
+}
