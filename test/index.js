@@ -11,12 +11,12 @@ describe('character encoding characters', function() {
 
     it('should replace þ with th: ', function() {
         var res = helper.replaceIcelandicCharacters('þÞ');
-        expect(res).to.eq('thTH');
+        expect(res).to.eq('thTh');
     });
 
     it('should replace æ with ae: ', function() {
         var res = helper.replaceIcelandicCharacters('æÆ');
-        expect(res).to.eq('aeAE');
+        expect(res).to.eq('aeAe');
     });
 
     it('should replace ö with o: ', function() {
